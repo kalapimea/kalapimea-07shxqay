@@ -10,7 +10,8 @@
             text-align: center;
             line-height: 1.5;
             padding: 50px;
-            background-color: #f4f4f4;
+            background-color: black; /* Set background color to black */
+            color: white; /* Set text color to white */
         }
         .alphabet {
             font-size: 24px;
@@ -19,6 +20,10 @@
         .text-section {
             font-size: 28px;
             margin-bottom: 30px;
+        }
+        .text-section .aligned-text {
+            display: block;
+            margin-left: calc(50% - 80px); /* Center-align "H I J K" under "A B C D" */
         }
         .small-text {
             font-size: 18px;
@@ -36,7 +41,7 @@
         SHXQAY<br>
         YUMPH<br><br>
         07<br>
-        HIJK
+        <span class="aligned-text">H I J K</span>
     </div>
 
     <div class="small-text">
